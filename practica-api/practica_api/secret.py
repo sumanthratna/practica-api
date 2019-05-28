@@ -1,2 +1,0 @@
-SECRET_KEY = "A3ZX7QXH97RD6qkz"
-DEBUG = False

@@ -24,7 +24,6 @@ SECRET_KEY = 'e!4^+si_w8$icxmo2f)i26$e$mq$ca+=430*-9#))do()g=@lk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "FALSE").upper() == "TRUE"
-print(DEBUG)
 
 ALLOWED_HOSTS = ['practica-api.sites.tjhsst.edu', '127.0.0.1', 'localhost']
 
@@ -113,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/New_York'
 
 USE_I18N = True
 
