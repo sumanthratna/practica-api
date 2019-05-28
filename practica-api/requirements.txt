@@ -1,0 +1,5 @@
+django==2.2.1
+djangorestframework==3.9.4
+pygments==2.4.1
+requests==2.22.0
+bs4==0.0.1
