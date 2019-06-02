@@ -5,6 +5,8 @@ import sys
 
 
 def main():
+    from django_secrets.startup import check
+    check()
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'practica_api.settings')
     try:
         from django.core.management import execute_from_command_line
