@@ -16,8 +16,7 @@ URL = "https://www.123teachme.com/translated_sentences/prep"
 
 
 @api_view(['GET'])
-def endpoints(request):
-    name = 'Sentence Generator'
+def sentence_generator(request):
     return Response(OrderedDict((
         ("info", "All requests must be GET requests."),
         ("/english/<word>/", "Fetch English sentences containing a given phrase."),
