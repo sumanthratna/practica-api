@@ -4,8 +4,8 @@ from sentences import views
 
 urlpatterns = [
     path('', views.sentence_maker),
-    path('english/<word>/', views.english, name='sentences'),
-    path('espanol/<palabra>/', views.espanol, name='sentences'),
+    path('english/<word>/', views.english, name='english'),
+    path('espanol/<palabra>/', views.español, name='español'),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

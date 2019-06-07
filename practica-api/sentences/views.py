@@ -1,7 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
-
 from rest_framework import generics
 
 from rest_framework.decorators import api_view
@@ -44,6 +42,6 @@ def english(request, word):
 
 
 @api_view(['GET'])
-def espanol(request, palabra):
+def español(request, palabra):
     params = {"phrase": palabra, "trans_type": "s2e", "commit": "Submit"}
     return Response(get_pairs(params))
