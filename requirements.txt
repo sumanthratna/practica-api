@@ -1,10 +1,10 @@
-django==2.2.8
-djangorestframework==3.9.4
+django==3.0.4
+djangorestframework==3.11.0
 django-secrets==1.0.2
-pygments==2.4.1
-requests==2.22.0
+pygments==2.6.1
+requests==2.23.0
 bs4==0.0.1
-whitenoise==4.1.2
+whitenoise==5.0.1
 djangorestframework-yaml==1.0.3
 djangorestframework-xml==1.4.0
 djangorestframework-jsonp==1.0.2
