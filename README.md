@@ -10,7 +10,7 @@ Your code should have the following structure:
     └── public
         ├── <THIS REPO>
 
-`run.sh` should have the following contents:
+`run.sh` should have the following contents (on [Director](https://director.tjhsst.edu/), `run.sh` starts at `public/`):
 
 ```bash
 #!/bin/env/bash
