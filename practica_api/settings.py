@@ -84,12 +84,12 @@ WSGI_APPLICATION = 'practica_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': secrets.DB_NAME,
-        'USER': secrets.DB_USER,
-        'PASSWORD': secrets.DB_PASSWORD,
-        'HOST': secrets.DB_HOST,
-        'PORT': secrets.DB_PORT
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': secrets.DB_NAME,
+        # 'USER': secrets.DB_USER,
+        # 'PASSWORD': secrets.DB_PASSWORD,
+        # 'HOST': secrets.DB_HOST,
+        # 'PORT': secrets.DB_PORT
     }
 }
 
@@ -123,4 +123,5 @@ REST_FRAMEWORK = {
         'rest_framework_msgpack.renderers.MessagePackRenderer',
         'rest_framework_csv.renderers.CSVRenderer'
     ),
+    'UNAUTHENTICATED_USER': None,
 }
