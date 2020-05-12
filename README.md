@@ -46,3 +46,5 @@ ln -s python python3.6
 cd ../public
 export PATH=../Python-3.6.10:$PATH
 ```
+
+Alternatively, you can download the appropriate [pypy](https://www.pypy.org/) [build](https://www.pypy.org/download.html#python-3-6-compatible-pypy3-6-v7-3-1) and `scp` it to your server. The production server uses pypy3. 
