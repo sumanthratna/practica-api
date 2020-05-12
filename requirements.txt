@@ -5,9 +5,9 @@ pygments==2.6.1
 requests==2.23.0
 bs4==0.0.1
 whitenoise==5.0.1
-djangorestframework-yaml==1.0.3
-djangorestframework-xml==1.4.0
-djangorestframework-jsonp==1.0.2
+# djangorestframework-yaml==1.0.3
+# djangorestframework-xml==1.4.0
+# djangorestframework-jsonp==1.0.2
 djangorestframework-msgpack==1.0.2
 djangorestframework-csv==2.1.0
-mysqlclient==1.4.2.post1
+# mysqlclient==1.4.2.post1
