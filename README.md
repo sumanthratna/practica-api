@@ -1,6 +1,6 @@
 # practica-api
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/40de1c4030584dea97eefaf17cf75e3b)](https://app.codacy.com/app/sumanthratna/practica-api?utm_source=github.com&utm_medium=referral&utm_content=sumanthratna/practica-api&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/40de1c4030584dea97eefaf17cf75e3b)](https://app.codacy.com/app/sumanthratna/practica-api?utm_source=github.com&utm_medium=referral&utm_content=sumanthratna/practica-api&utm_campaign=Badge_Grade_Dashboard) [![Build Status](https://travis-ci.com/sumanthratna/practica-api.svg?branch=master)](https://travis-ci.com/sumanthratna/practica-api)
 
 Your code should have the following structure:
 
