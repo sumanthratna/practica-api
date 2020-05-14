@@ -12,8 +12,8 @@ install:
 - python -m pip install --upgrade pip
 - python -m pip install -r requirements.txt
 script:
-- python manage.py collectstatic --no-input
-- yes $DJANGO_SECRET_KEY | python manage.py test
+- yes $DJANGO_SECRET_KEY | python manage.py collectstatic --no-input
+- python manage.py test
 - DJANGO_SETTINGS_MODULE=practica_api.settings python test_server.py
 - python -m cProfile manage.py test
 env:
