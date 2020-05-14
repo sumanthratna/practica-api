@@ -13,6 +13,7 @@ install:
 - python -m pip install -r requirements.txt
 script:
 - yes $DJANGO_SECRET_KEY | python manage.py test
+- DJANGO_SETTINGS_MODULE=practica_api.settings python test_server.py
 - python -m cProfile manage.py test
 env:
   global:

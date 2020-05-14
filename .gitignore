@@ -1,5 +1,6 @@
 static/
 .DS_Store
+practica_api.profile
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

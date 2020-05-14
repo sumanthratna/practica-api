@@ -32,7 +32,7 @@ deactivate
 If Python 3.6+ is not available on your Ubuntu server and you do not have `sudo` access, add the following after `export DEBUG=FALSE` in `run.sh`:
 
 ```bash
-# adapted from https://randomwalk.in/python/2019/10/27/Install-Python-copy.html
+# adapted from https://web.archive.org/save/https://randomwalk.in/python/2019/10/27/Install-Python-copy.html
 cd ..
 wget https://www.python.org/ftp/python/3.6.10/Python-3.6.10.tgz
 tar zxfv Python-3.6.10.tgz
