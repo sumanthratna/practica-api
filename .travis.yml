@@ -1,16 +1,19 @@
 language: python
 python:
-  - "3.6"
-  - "3.7"
-  - "3.8"
-  - "pypy3"
-  - "nightly"
+- '3.6'
+- '3.7'
+- '3.8'
+- pypy3
+- nightly
 jobs:
   allow_failures:
   - python: nightly
 install:
-  - python -m pip install --upgrade pip
-  - python -m pip install -r requirements.txt
+- python -m pip install --upgrade pip
+- python -m pip install -r requirements.txt
 script:
-  - python manage.py test
-  - gprof python manage.py test
+- yes $DJANGO_SECRET_KEY | python manage.py test
+- gprof python manage.py test
+env:
+  global:
+  - secure: gl1h4lgLHQABqwvqMCGs8qonDOQs3pJravhTxdOjQk+0eiussxM6VOF6G0HDY6jWjTTcnhMgC/J56MIQ+8jJ5hNV8qkPlMBvQK0K+g19vHQzd0hjymedWsjaHxhgzZsPTRHwfqAaNtixvjFpPQnx3MB+3vr58wjCUjkX75hBRO4J8ENqblWzzbgeC//BVa8a9nl0iHDIjJ7EZjEUk3CFATcX4SImKaZfr+AExxdNAqROU+OA62ZNZcEp2duE8f+StX5h2g5VeJOEcRPkp8vPk1e/dAuQPHSHEAhynA32T+dskxTowDwCLqWVVb7I6Te8WBqaDhb3FjP3/i+oG2zU49aAbwdET7b21e4x3b/NQTB73DIhTDS+g1kvS4oo0SqH6jbkH0DXHQZs67PGHEibiO8P2VrPSDKI/u9DbSNGLrq4Afzk0Hl4RGNwcKO3RHshlO3Peb8ZA2daPmDTMvMu5EpS6iKUsW9Hj4TibpjbcC+VsIdsR2YPyXQQIUUkVl8FmIW29durz0WGHENepQ8n7Hc0NZbvRsO5z4tsIAkuFRa+mngAx2NeC0lOzr3VnYf+jgfNg3lObLSKXVZTB6fOtvBpsw9xDSVG3PxWvSgPoXaCMb1e+VtVLvo8yvH0qvbEC6i8SPLDqCg+q2SPGOtgh3nFlLaWGf6S0HyE9Pp4cqo=
