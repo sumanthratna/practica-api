@@ -12,3 +12,4 @@ whitenoise==5.1.0
 djangorestframework-msgpack==1.0.2
 djangorestframework-csv==2.1.0
 # mysqlclient==1.4.2.post1
+dealer==2.1.0

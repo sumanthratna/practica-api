@@ -29,6 +29,10 @@ DEBUG = os.getenv("DEBUG", "FALSE").upper() == "TRUE"
 ALLOWED_HOSTS = ['practica-api.sites.tjhsst.edu', '127.0.0.1', 'localhost']
 
 
+# Dealer settings
+DEALER_TYPE = 'git'
+DEALER_BACKENDS = 'git'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -71,6 +75,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'dealer.contrib.django.context_processor',
             ],
         },
     },
