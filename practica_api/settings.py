@@ -122,8 +122,8 @@ REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
         'rest_framework.renderers.BrowsableAPIRenderer',
         'rest_framework.renderers.JSONRenderer',
-        # 'rest_framework_xml.renderers.XMLRenderer',
-        # 'rest_framework_yaml.renderers.YAMLRenderer',
+        'rest_framework_xml.renderers.XMLRenderer',
+        'rest_framework_yaml.renderers.YAMLRenderer',
         # 'rest_framework_jsonp.renderers.JSONPRenderer',
         'rest_framework_msgpack.renderers.MessagePackRenderer',
         'rest_framework_csv.renderers.CSVRenderer'
