@@ -4,7 +4,7 @@ djangorestframework==3.11.1
 django-secrets==1.0.2
 Pygments==2.6.1
 requests==2.24.0
-beautifulsoup4==4.9.1
+beautifulsoup4==4.9.3
 whitenoise==5.2.0
 # djangorestframework-yaml==1.0.3
 # djangorestframework-xml==1.4.0
