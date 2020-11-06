@@ -6,7 +6,7 @@ dealer==2.1.0
 defusedxml==0.6.0
 Django==3.1.2
 django-secrets==1.0.2
-djangorestframework==3.12.1
+djangorestframework==3.12.2
 djangorestframework-csv==2.1.0
 djangorestframework-msgpack==1.0.2
 djangorestframework-xml==2.0.0
